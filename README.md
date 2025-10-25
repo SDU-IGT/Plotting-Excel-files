@@ -4,8 +4,7 @@ Create **publication-quality world maps** from Excel data using **Cartopy**, **G
 This repo contains a minimal-but-powerful plotting function that reads a worksheet, aggregates values to **main regions** or **subregions**, and exports **PDF maps** in a Robinson projection with a horizontal colorbar.
 
 > ℹ️ **About the project document (PDF):**  
-> I couldn’t find a PDF in the uploaded files. This README is built from the code (`plotting.py`) and the dependencies (`requirements.txt`).  
-> If you add the document, paste its key points into the section **“Background (from the project document)”** below, or re-run with the PDF attached and I’ll merge it in.
+> This README is built from the code (`plotting.py`) and the dependencies (`requirements.txt`).  
 
 ---
 
