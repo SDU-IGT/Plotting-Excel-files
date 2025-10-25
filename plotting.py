@@ -241,8 +241,9 @@ def plot_world_maps_minimal(excel_path, sheet_name, value_cols, out_dir, mainReg
         if not ycol_found:
             raise ValueError("You provided year(s), but no year column ('t'/'Year') was found in the sheet.")
         return ylist
-
-    # ---------- read + prep ----------
+    # --------------------------------------------------------------------------
+    
+    # ----------------------------------- read + prep --------------------------
     out_dir = Path(out_dir); out_dir.mkdir(parents=True, exist_ok=True)
     df = pd.read_excel(excel_path, sheet_name=sheet_name, engine="openpyxl")
 
@@ -385,4 +386,5 @@ plot_world_maps_minimal(
     ["Number of~Animals SSP5"],
     out_dir="o2", mainRegion=False, year=[2050], sub_col="Regions (t)"
 )
+
 
