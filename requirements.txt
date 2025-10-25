@@ -1,0 +1,10 @@
+
+numpy
+pandas
+openpyxl
+matplotlib
+geopandas
+shapely>=2.0
+pyproj>=3.5
+cartopy
+geodatasets
