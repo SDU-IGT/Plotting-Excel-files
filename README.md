@@ -176,19 +176,3 @@ You can work either at the **main** or **subregion** level by toggling `mainRegi
 
 ---
 
-## 📄 Background (from the project document)
-
-> _Add a few paragraphs here summarizing the project rationale, data sources, assumptions, and any methodological notes from your PDF. Once you attach the PDF, this section can be auto-populated._
-
----
-
-## 📜 License
-
-MIT — feel free to use and adapt for research and visualization.
-
----
-
-## 👤 Author
-
-**Hamid Mirshekali**  
-For questions or collaborations: _add your email here_
