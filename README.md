@@ -127,20 +127,7 @@ python plotting.py
 
 ---
 
-## 🌐 Basemap options
 
-By default the script tries (in order):
-1. `LCA_WORLD_GEOJSON` environment variable (if set)
-2. **geodatasets**: Natural Earth countries (several keys tried)
-3. **cartopy**’s built-in Natural Earth fetcher
-4. Fallback URLs to Natural Earth GeoJSON on GitHub
-
-You can **force a custom basemap** by setting an environment variable:
-```bash
-export LCA_WORLD_GEOJSON="/absolute/path/to/world.geojson"
-```
-
----
 
 ## 🧭 Regions & aggregation
 
