@@ -104,8 +104,8 @@ def plot_world_maps_minimal(excel_path, sheet_name, value_cols, out_dir, mainReg
         "Micronesia","Marshall Islands","Palau","Nauru","Tuvalu"
     ],
 }
-
-    # ---------- helpers ----------
+    # -------------------------------------------------------------------------------
+    # -----------------------         HELPER       ----------------------------------
     def _set_white_outline(ax, lw=0.8):
         if hasattr(ax, "outline_patch") and ax.outline_patch is not None:
             ax.outline_patch.set_edgecolor("white"); ax.outline_patch.set_linewidth(lw)
@@ -385,3 +385,4 @@ plot_world_maps_minimal(
     ["Number of~Animals SSP5"],
     out_dir="o2", mainRegion=False, year=[2050], sub_col="Regions (t)"
 )
+
